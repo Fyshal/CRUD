@@ -28,6 +28,7 @@ This project is a Windows Forms application developed in C# that demonstrates ba
 
    ```bash
    git clone https://github.com/your-username/your-repository.git
+Open the Project
    Open the Project
 2. **Open the solution file(.sln) in Visual Studio**
 Open the solution file (.sln) in Visual Studio.
