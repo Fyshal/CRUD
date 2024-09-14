@@ -27,7 +27,7 @@ This project is a Windows Forms application developed in C# that demonstrates ba
 1. **Clone the Repository**
 
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   https://github.com/Fyshal/CRUD.git
 Open the Project
    Open the Project
 2. **Open the solution file(.sln) in Visual Studio**
