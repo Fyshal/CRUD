@@ -28,11 +28,12 @@ This project is a Windows Forms application developed in C# that demonstrates ba
 
    ```bash
    https://github.com/Fyshal/CRUD.git
-Open the Project
-   Open the Project
-2. **Open the solution file(.sln) in Visual Studio**
+2. **Open the Project**
+   
+ **Open the solution file(.sln) in Visual Studio**
 Open the solution file (.sln) in Visual Studio.
-3.	Configure Database Connection
+
+3.	**Configure Database Connection**
 o	Ensure you have SQL Server installed.
 o	Create a database named CRUD.
 o	Update the connection string in the SignUP and Login classes to match your SQL Server instance.
@@ -40,7 +41,8 @@ csharp
 Copy code
 // Connection String Example
 string connectionString = "Data Source=YOUR_SERVER_NAME;Initial Catalog=CRUD;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
-4.	Build and Run the Application
+
+4.	**Build and Run the Application**
 o	Build the project in Visual Studio.
 o	Run the application to start using the CRUD functionality.
 Usage
