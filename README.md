@@ -46,7 +46,8 @@ This project is a Windows Forms application developed in C# that demonstrates ba
    
     o	Build the project in Visual Studio.
     o	Run the application to start using the CRUD functionality.
-    Usage
+
+5.**Usage**
   	
    •	Sign Up: Use the SignUP form to create a new user account. Ensure all fields are filled before submission.
    •	Login: Use the Login form to authenticate and access the CRUD functionality.
