@@ -31,28 +31,28 @@ This project is a Windows Forms application developed in C# that demonstrates ba
 2. **Open the Project**
    
  **Open the solution file(.sln) in Visual Studio**
-Open the solution file (.sln) in Visual Studio.
+    Open the solution file (.sln) in Visual Studio.
 
 3.	**Configure Database Connection**
-o	Ensure you have SQL Server installed.
-o	Create a database named CRUD.
-o	Update the connection string in the SignUP and Login classes to match your SQL Server instance.
-csharp
-Copy code
-// Connection String Example
-string connectionString = "Data Source=YOUR_SERVER_NAME;Initial Catalog=CRUD;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
+     o	Ensure you have SQL Server installed.
+     o	Create a database named CRUD.
+     o	Update the connection string in the SignUP and Login classes to match your SQL Server instance.
+     csharp
+  Copy code
+     // Connection String Example
+     string connectionString = "Data Source=YOUR_SERVER_NAME;Initial Catalog=CRUD;Integrated Security=True;Encrypt=True;TrustServerCertificate=True";
 
 4.	**Build and Run the Application**
-o	Build the project in Visual Studio.
-o	Run the application to start using the CRUD functionality.
-Usage
-•	Sign Up: Use the SignUP form to create a new user account. Ensure all fields are filled before submission.
-•	Login: Use the Login form to authenticate and access the CRUD functionality.
-•	Manage Records: After logging in, you can:
-o	View all user records by clicking the "View Records" button.
-o	Update existing records by specifying an ID and updating the relevant fields.
-o	Delete records by specifying an ID.
-Code Structure
-•	SignUP.cs: Handles user sign-up, record management, and UI interactions.
-•	Login.cs: Manages user login and authentication.
+    o	Build the project in Visual Studio.
+    o	Run the application to start using the CRUD functionality.
+    Usage
+   •	Sign Up: Use the SignUP form to create a new user account. Ensure all fields are filled before submission.
+   •	Login: Use the Login form to authenticate and access the CRUD functionality.
+   •	Manage Records: After logging in, you can:
+   o	View all user records by clicking the "View Records" button.
+   o	Update existing records by specifying an ID and updating the relevant fields.
+   o	Delete records by specifying an ID.
+5. **Code Structure**
+   •	SignUP.cs: Handles user sign-up, record management, and UI interactions.
+   •	Login.cs: Manages user login and authentication.
 
